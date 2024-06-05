@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorrillaz Fitness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+            </div>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Inicio</a></li>
+                <li><a href="#" class="nav-link px-2">Planes</a></li>
+                <li><a href="#" class="nav-link px-2">Servicios</a></li>
+                <li><a href="#" class="nav-link px-2">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2">Contacto</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2">Iniciar sesión</button>
+                <button type="button" class="btn btn-primary">Regístrate</button>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="container my-5">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+                <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+                <h1 class="text-body-emphasis">Bienvenido a Gorrillaz Fitness</h1>
+                <p class="col-lg-8 mx-auto fs-5 text-muted">
+                    Tu viaje hacia una vida más saludable y activa comienza aquí. Únete a nosotros y descubre nuestros
+                    planes y servicios diseñados para ayudarte a alcanzar tus objetivos de fitness.
+                </p>
+                <div class="d-inline-flex gap-2 mb-5">
+                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
+                        type="button">
+                        Únete ahora
+                        <svg class="bi ms-2" width="24" height="24">
+                            <use xlink:href="#arrow-right-short" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                        Más información
+                    </button>
+                </div>
+            </div>
+        </div>
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Básico</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$20<small
+                                    class="text-body-secondary fw-light">/mes</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Acceso a todas las máquinas</li>
+                                <li>Clases grupales</li>
+                                <li>1 consulta de nutrición</li>
+                                <li>Acceso a duchas y vestuarios</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Inscríbete</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$35<small
+                                    class="text-body-secondary fw-light">/mes</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Todo lo del plan Básico</li>
+                                <li>Entrenamiento personal</li>
+                                <li>Clases avanzadas</li>
+                                <li>Acceso a sauna y spa</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Inscríbete</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Elite</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$50<small
+                                    class="text-body-secondary fw-light">/mes</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Todo lo del plan Pro</li>
+                                <li>Acceso ilimitado a todas las instalaciones</li>
+                                <li>Sesiones de fisioterapia</li>
+                                <li>Entrenador personal dedicado</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Inscríbete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light text-center py-4">
+        <div class="container">
+            <p class="mb-0">© 2024 Gorrillaz Fitness. Todos los derechos reservados.</p>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="#" class="nav-link px-2">Privacidad</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Términos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
